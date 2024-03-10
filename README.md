@@ -30,3 +30,15 @@
 
 ! [README.md](https://docs.github.com/assets/cb-82878/mw-1440/images/help/repository/headings-toc.webp)
 
+
+## Стилизация текста
+
+
+[☝️edit me](https://markdowntable.jose.gr/?table=N4Igxg9gNgziBcoAMDQCNoBMEBcBOArgKYC+ANCAIyogCGUAlgOYB2CIURAZjiOSA
+
+
+Вы можете выделить жирный шрифт, курсив, зачеркнутый текст, подстрочный или надстрочный
+текст в полях комментариев и .md файлах.
+
+|---**Стиль**   |---**Cинтаксис**       |---**Сочетание клавиш**   |---**Пример**            |---**Выход         |
+
