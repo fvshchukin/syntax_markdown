@@ -273,6 +273,57 @@ ___
 
 `[1]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown"`
 
+## Вставка кода (code)
+
+В Markdown есть несколько способов выделить исходный код:
+
+- Если надо отобразить фрагмент кода внутри строки с каким-то текстом, нужно с двух сторон выделить этот код одним или несколькими обратными апострофами (`; их ещё называют бэктиками).
+- Чтобы выделить фрагмент из нескольких строк, нужно с двух сторон выделить его тремя обратными апострофами.
+- Также перед фрагментом кода можно поставить табуляцию или четыре пробела, при этом предыдущая строка должна быть пустой.
+
+Функция `print (x)` выводит содержимое переменной ```x```.
+ ```
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
+}
+```
+
+	let x = 12;
+	let y = 6;
+	console.log(x + y);
+
+![code](https://skillbox.ru/upload/setka_images/12161109022023_d923d832852c84ff8cb1d764c150f8a33ddaf2bc.png)
+
+
+Если обрамлять код тремя обратными апострофами, то после первой тройки можно указать язык программирования — тогда Markdown правильно подсветит элементы кода.
+
+```python
+if x > 0:
+	print (x)
+else:
+	print ('Hello, World!')
+```
+
+```c
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
+}
+```
+
+```javascript
+let x = 12;
+let y = 6;
+console.log(x + y);
+```
+
+![Code](https://skillbox.ru/upload/setka_images/12161209022023_e232256a49fa7e721d9a6532e6c1427f31d3174c.png)
+
+
+
 
 
 
